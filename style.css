@@ -180,10 +180,7 @@ main > section{
 .architect img{
     width: 100%;
 }
-#badge{
-    margin-top: 20px;
-    margin-left: 20px;
-}
+
 @media screen and (max-width: 576px) {
     .navber, .nav-link, .teams, .feature{
         flex-direction: column;
@@ -198,6 +195,10 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
+    #badge{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
     
 
